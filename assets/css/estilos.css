@@ -12,7 +12,7 @@ li {
 
 li a {
     color: rgb(255, 255, 255);
-    display: block;
+    display: flex;
     padding: 14px 16px;
     /* Arriba y abajo 14, izquierda y derecha 16 */
     text-decoration: none;
@@ -74,7 +74,7 @@ li a:hover {
 }
 
 .container {
-    background-color: aquamarine;
+    background-color: #CBBEB3;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
 }

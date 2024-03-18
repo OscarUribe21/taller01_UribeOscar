@@ -1,0 +1,80 @@
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: grey;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 14px 16px;
+    /* Arriba y abajo 14, izquierda y derecha 16 */
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #052e41;
+}
+
+.activo {
+    background-color: #85bff5;
+}
+
+.derecha {
+    float: right;
+}
+
+.miJumbo {
+    margin-top: 1rem;
+    padding: 32px 16px;
+    background-color: #e9ecef;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    padding: 12px 10px;
+    /* Espacio dentro de la caja */
+    border-radius: 20px;
+    /* Bordes redondeados */
+    width: 300px;
+    /* Ancho de la caja */
+    background-color: whitesmoke;
+    /* Color de fondo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera */
+    transition: all 0.3s ease;
+    /* Transición suave al enfocar */
+}
+
+.btn {
+    border: none;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    background-color: whitesmoke;
+}
+.btn:hover {
+    background: #052e41;    
+    text-decoration: none;
+}
+
+.container {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 1rem;
+}
